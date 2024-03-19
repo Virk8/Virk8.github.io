@@ -17,7 +17,7 @@ Este repositório contém o código-fonte e os arquivos necessários para implan
 
 ### Como Usar:
 
-- Apenas abra o link virk8.github.io
+- Apenas abra o link <virk8.github.io>
 
 ### Tecnologias Utilizadas:
 
