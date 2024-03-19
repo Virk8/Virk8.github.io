@@ -19,6 +19,9 @@
         <div class="hero-body">
             <div class="container has-text-centered">
                 <h1 class="title">Aula 2<br>Definição de Biologia, Níveis de organização dos seres vivos e Principais Divisões da Biologia.<br>21/02/2024</h1>
+                <audio controls>
+                    <source src="audio/28-2-2024.mp3" type="audio/mpeg">
+                  </audio>
             </div>
         </div>
     </section>
@@ -322,7 +325,7 @@
                             </p>
                         </div>
                         <footer class="card-footer">
-                            <a href="index.html" class="card-footer-item">Voltar</a>
+                            <a href="index.html" onclick="Voltar()" class="card-footer-item">Voltar</a>
                           </footer>
         </section>
         <!-- END ARTICLE FEED -->
@@ -337,5 +340,9 @@
   </footer>
         <script async type="text/javascript" src="../js/bulma.js"></script>
 </body>
-
+<script>
+    function Voltar() {
+        alert("Voltando");
+    }
+  </script>
 </html>
