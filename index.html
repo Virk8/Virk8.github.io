@@ -13,9 +13,18 @@
   <link rel="stylesheet" type="text/css" href="css/personal.css">
   <script async type="text/javascript" src="js/b.js"></script>
 </head>
-
+<style>
+  nav.navbar {
+    height: 6rem !important;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06) !important;
+  }
+  :root{
+::-webkit-scrollbar{height:10px;width:10px}::-webkit-scrollbar-track{background:#484848;border-radius:6px}::-webkit-scrollbar-thumb{background:#d2cdcd;border-radius:6px}::-webkit-scrollbar-thumb:hover{background:#3e0000}
+}
+  ::selection{color: lavender; background-color:black;}
+</style>
 <body>
-  <!-- Navigation bar -->
+
   <nav class="navbar is-link is-fixed-top">
     <div class="navbar-brand">
       <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
@@ -33,12 +42,12 @@
           </span>
           <span>Proposta</span>
         </a>
-        <!--<a class="navbar-item" href="#resume">
+        <a class="navbar-item" href="#resume">
           <span class="icon">
             <i class="fas fa-file-alt"></i>
           </span>
           <span>PDF</span>
-        </a>-->
+        </a>
         <a class="navbar-item" href="#portfolio">
           <span class="icon">
             <i class="fas fa-th-list"></i>
@@ -55,7 +64,6 @@
     </div>
   </nav>
 
-  <!-- Header -->
   <section class="hero is-link is-fullheight is-fullheight-with-navbar">
     <div class="hero-body">
         <h1 class="title is-1">
@@ -65,9 +73,9 @@
       </div>
     </div>
   </section>
-  <!-- About -->
+
   <section class="section" id="about">
-    <!-- Title -->
+
     <div class="section-heading">
       <h3 class="title is-2">Proposta</h3>
       <h4 class="subtitle is-5">Diario de Bordo</h4>
@@ -116,7 +124,7 @@
   <section>
   <div class="columns has-same-height is-gapless">
     <div class="column">
-      <!-- Profile -->
+
       <div class="card">
         <div class="card-content">
           <h3 class="title is-4">Professor</h3>
@@ -146,7 +154,7 @@
       </div>
     </div>
     <div class="column">
-      <!-- Profile picture -->
+
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
@@ -157,7 +165,6 @@
     </div>
   </section>
 
-<!--
   <section class="section" id="resume">
     <div class="section-heading">
       <h3 class="title is-2">PDF</h3>
@@ -173,9 +180,8 @@
         <span>Baixar PDF</span>
       </a>
     </div>
-  </section>-->
+  </section>
 
-  <!-- Portfolio -->
   <section class="section" id="portfolio">
     <div class="container">
       <div class="section-heading">
@@ -260,7 +266,7 @@
   <footer class="footer">
     <div class="section-heading">
       <p>
-        <strong>Diario de bordo</strong> Por <a href="https://www.instagram.com/virk_.s/">virk</a>.   
+        <strong>Diario de bordo</strong> Por <a href="https://github.com/Virk8">virk</a>.   
         <a href="license.html">MIT</a>.
       </p>
     </div>
