@@ -28,11 +28,12 @@ Este repositório contém o código-fonte e os arquivos necessários para implan
 
 ### Contribuições:
 
-Victor Sales Daniel. Criação do site e kahoot2
-Samuel Riviera De Lima. Aula 4
-Felipe Sant'Anna Kraemer. Aula 1 e kahoot1
-Andriy Iran Lameira Bezerra. 
-Joao Gabriel De Abreu Vieira Cavalari. Aula 2
+- Victor Sales Daniel. Criação do site e implementação de todas as aulas no site
+
+- Samuel Riviera De Lima. Aula 4
+- Felipe Sant'Anna Kraemer. Aula 1 e kahoot1
+- Andriy Iran Lameira Bezerra. 
+- Joao Gabriel De Abreu Vieira Cavalari. Aula 2
 
 ### Contato:
 
