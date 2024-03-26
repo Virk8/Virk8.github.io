@@ -10,13 +10,6 @@ html,body {
   font-size: 1.11rem;
   font-weight: bold;
 }
-.hero-body
-{background-image: url(../images/Biol.png);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-height: 500px;
-}
 .articles {
   margin: 5rem 0;
   margin-top: -200px;
