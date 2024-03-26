@@ -8,364 +8,159 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="64x64" href="../images/virk.png">
-    <title>Modal Cards - Free Bulma template</title>
+    <title>Aulas</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <!-- Bulma Version 0.9.4-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" type="text/css" href="../css/retttt.css">
     <link rel="stylesheet" href="../css/min.css" />
     <style>
-    .columns:nth-child(2)
-    {margin-top: -10rem;}
-    ::-webkit-scrollbar{height:10px;width:10px}::-webkit-scrollbar-track{background:#efefef;border-radius:6px}::-webkit-scrollbar-thumb{background:#d5d5d5;border-radius:6px}::-webkit-scrollbar-thumb:hover{background:#c4c4c4}
-    </style>
+          nav.navbar {
+            height: 6rem !important;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06) !important;
+          }
+          :root{
+        ::-webkit-scrollbar{height:10px;width:10px}::-webkit-scrollbar-track{background:#484848;border-radius:6px}::-webkit-scrollbar-thumb{background:#d2cdcd;border-radius:6px}::-webkit-scrollbar-thumb:hover{background:#3e0000}
+        }
+          ::selection{color: lavender; background-color:black;}
+        </style>
   </head>
   <body>
     <section class="hero is-info is-small">
       <div class="hero-body">
         <div class="container has-text-centered">
           <p class="title">
-            Modal Cards
+            Aulas De Biologia
           </p>
           <p class="subtitle">
-            Subtitle
-          </p>
+            Aqui ficam as Aulas de biologia separadas em Cards para acessar uma aula Clique no botão na base do Card.
+            </p>
         </div>
       </div>
     </section>
-    <div class="box cta">
-      <p class="has-text-centered">
-        <span class="tag is-primary">New</span> Here we have modal cards. When you click on them they will open functional modal examples.
-      </p>
-    </div>
     <section class="container">
+
       <div class="columns features">
         <div class="column is-4">
           <div class="card is-shady">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="https://images.unsplash.com/photo-1515555230216-82228b88ea98?auto=format&amp;fit=crop&amp;w=900&amp;q=60" alt="Placeholder image" class="modal-button" data-target="modal-image2">
+                <img src="images/12.png" alt="Placeholder image" class="modal-button" data-target="modal-image2">
               </figure>
             </div>
             <div class="card-content">
               <div class="content">
-                <h4>Click on image above</h4>
-                <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac ut consequat semper viverra nam.</p>
-                <span class="button is-link modal-button" data-target="modal-image2">Image modal</span>
+                <h4>Aula 1 - Apresentações, Plano de Ensino Semestral e Orientações gerais.</h4>
+                <p>No dia 21/02 começamos a aula com a elaboração do plano de ensino, seguido pela apresentação do professor, onde conhecemos mais sobre sua experiência e visão para o curso. Em seguida, tivemos uma explicação sobre como serão as aulas ao longo do semestre, destacando os métodos de ensino e recursos que serão utilizados. Por fim, encerramos o dia com um quiz interativo no Kahoot, que foi divertido e desafiador.</p>
+                <a href="aula1.html" onclick="ver1()" class="button is-link is-medium">Ver Aula</a>
               </div>
             </div>
           </div>
         </div>
+
         <div class="column is-4">
           <div class="card is-shady">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="https://res.cloudinary.com/crakerss/image/upload/c_scale,q_auto:eco,w_1440/v1502988509/background_conifer/MS.jpg" alt="Placeholder image">
+                <img src="images/teer.png" alt="Placeholder image">
               </figure>
             </div>
             <div class="card-content">
               <div class="content">
-                <h4>Tempor orci dapibus faber in.</h4>
-                <p>Ut venenatis tellus in metus vulputate. Amet consectetur adipiscing elit pellentesque. Sed arcu non odio euismod lacinia at quis risus. Faucibus turpis in eu mi bibendum neque egestas cmonsu songue. Phasellus vestibulum lorem
-                sed risus.</p>
-                <span class="button is-link modal-button" data-target="modal-card">Modal Card</span>
+                <h4>Aula 2 - Definição de Biologia, Níveis de organização dos seres vivos e Principais Divisões da Biologia.</h4>
+                <p>Nesta aula, estudamos os diferentes níveis de organização dos seres vivos, começando pelo átomo e passando pelas moléculas, organelas e células, tecidos, órgãos e sistemas, organismos individuais, taxonomia e, por fim, populações, comunidades, ecossistemas e biosfera. Cada nível é investigado por uma disciplina específica da biologia, desde a bioquímica até a ecologia.</p>
+                <a href="aula2.html" onclick="ver2()" class="button is-link is-medium">Ver Aula</a>
               </div>
             </div>
           </div>
         </div>
+
         <div class="column is-4 modal-button" data-target="modal-image">
           <div class="card is-shady">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="https://res.cloudinary.com/ameo/image/upload/v1568711475/pexels-photo-1302883_fjje0f.jpg" alt="Placeholder image">
+                <img src="images/21.png" alt="Placeholder image">
               </figure>
             </div>
             <div class="card-content">
               <div class="content">
-                <h4>Click anywhere on card</h4>
-                <p>Imperdiet dui accumsan sit amet nulla facilisi morbi. Fusce ut placerat orci nulla pellentesque dignissim enim. Libero id faucibus nisl tincidunt eget nullam. Commodo viverra maecenas accumsan lacus vel facilisis.</p>
-                <span class="button is-link modal-button" data-target="modal-image">Image modal</span>
+                <h4>Aula 3 - Introdução a Citologia, Microscopia, Células Animais e Vegetais.</h4>
+                <p>A terceira aula de biologia foi totalmente focado na história, definições e conceitos da Citologia, estudo das células, na qual se encontra o primeiro material de estudo da biologia. O foco da aula foi sobre citologia, mas no começo dela, o professor revisou os níveis de organização dos seres vivos e divisões da biologia.</p>
+                <a href="aula3.html" onclick="ver3()" class="button is-link is-medium">Ver Aula</a>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="columns features">
-        <div class="column is-4 modal-button" data-target="modal-card">
-          <div class="card is-shady">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="https://res.cloudinary.com/ameo/image/upload/v1568711475/pexels-photo-1302883_fjje0f.jpg" alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="content">
-                <h4>Click anywhere on card to <br>expand into modal card</h4>
-                <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac ut consequat semper viverra nam.</p>
-                <span class="button is-link modal-button">Modal card</span>
+
+        <!--<div class="columns features">
+          <div class="column is-4 modal-button" data-target="modal-card">
+            <div class="card is-shady">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="https://res.cloudinary.com/ameo/image/upload/v1568711475/pexels-photo-1302883_fjje0f.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h4>Click anywhere on card to <br>expand into modal card</h4>
+                  <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac ut consequat semper viverra nam.</p>
+                  <a href="aula1.html" onclick="ver1()" class="card-footer-item">Ver</a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="column is-4">
-          <div class="card is-shady">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="https://images.unsplash.com/photo-1529774172307-627a0ae46dae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="butterfly image" class="modal-button" data-target="modal-image4">
-              </figure>
-            </div>
-            <div class="card-content  modal-button" data-target="modal-card2">
-              <div class="content">
-                <h4>Click anywhere on card to <br>expand into modal card - header image expands into bigger image</h4>
-                <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis.</p>
-                <span class="button is-link modal-button">Modal card</span>
+          <div class="column is-4">
+            <div class="card is-shady">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="https://images.unsplash.com/photo-1529774172307-627a0ae46dae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="butterfly image" class="modal-button" data-target="modal-image4">
+                </figure>
+              </div>
+              <div class="card-content  modal-button" data-target="modal-card2">
+                <div class="content">
+                  <h4>Click anywhere on card to <br>expand into modal card - header image expands into bigger image</h4>
+                  <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis.</p>
+                  <a href="aula1.html" onclick="ver1()" class="card-footer-item">Ver</a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
+        </div>-->
+      </section>
     <footer>
-      <section class="section">
-        <div class="container">
-          <div class="columns is-multiline">
-            <div class="column is-one-third">
-              <article class="notification media has-background-white">
-                <figure class="media-left">
-                  <span class="icon">
-                    <i class="has-text-warning fa fa-columns fa-lg"></i>
-                  </span>
-                </figure>
-                <div class="media-content">
-                  <div class="content">
-                    <h1 class="title is-size-4">Columns</h1>
-                    <p class="is-size-5 subtitle">
-                      The power of <strong>Flexbox</strong> in a simple interface
-                    </p>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="column is-one-third">
-              <article class="notification has-background-white media">
-                <figure class="media-left">
-                  <span class="icon has-text-info">
-                    <i class="fa fa-lg fa-wpforms"></i>
-                  </span>
-                </figure>
-                <div class="media-content">
-                  <div class="content">
-                    <h1 class="title is-size-4">Form</h1>
-                    <p class="is-size-5 subtitle">
-                      The indispensable <strong>form controls</strong>, designed for maximum clarity
-                    </p>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="column is-one-third">
-              <article class="notification has-background-white media">
-                <figure class="media-left">
-                  <span class="icon has-text-danger">
-                    <i class="fa fa-lg fa-cubes"></i>
-                  </span>
-                </figure>
-                <div class="media-content">
-                  <div class="content">
-                    <h1 class="title is-size-4">Components</h1>
-                    <p class="is-size-5 subtitle">
-                      Advanced multi-part components with lots of possibilities
-                    </p>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="column is-one-third">
-              <article class="notification has-background-white media">
-                <figure class="media-left">
-                  <span class="icon has-text-grey">
-                    <i class="fa fa-lg fa-cogs"></i>
-                  </span>
-                </figure>
-                <div class="media-content">
-                  <div class="content">
-                    <h1 class="title is-size-4">Modifiers</h1>
-                    <p class="is-size-5 subtitle">
-                      An <strong>easy-to-read</strong> naming system designed for humans
-                    </p>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="column is-one-third">
-              <article class="notification has-background-white media">
-                <figure class="media-left">
-                  <span class="icon has-text-primary">
-                    <i class="fa fa-lg fa-superpowers"></i>
-                  </span>
-                </figure>
-                <div class="media-content">
-                  <div class="content">
-                    <h1 class="title is-size-4">Layout</h1>
-                    <p class="is-size-5 subtitle">
-                      Design the <strong>structure</strong> of your webpage with these CSS classes
-                    </p>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="column is-one-third">
-              <article class="notification has-background-white media">
-                <figure class="media-left">
-                  <span class="icon has-text-danger">
-                    <i class="fa fa-lg fa-cube"></i>
-                  </span>
-                </figure>
-                <div class="media-content">
-                  <div class="content">
-                    <h1 class="title is-size-4">Elements</h1>
-                    <p class="is-size-5 subtitle">
-                      Essential interface elements that only require a <strong>single CSS class</strong>
-                    </p>
-                  </div>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
+      <section class="section" id="Leiame">
+        <div class="content has-text-centered">
+          <br>
+          <a href="index.html" class="button is-link is-medium">
+              <i class="fas fa-file-alt"></i>
+            </span>
+            <span>Voltar</span>
+          </a>
       </section>
       <div class="content has-text-centered">
         <div class="control level-item">
-          <a href="https://github.com/BulmaTemplates/bulma-templates">
+          <a href="../license.html">
             <div class="tags has-addons">
-              <span class="tag is-dark">Bulma Templates</span>
+              <span class="tag is-dark">Virk</span>
               <span class="tag is-info">MIT license</span>
             </div>
           </a>
         </div>
       </div>
     </footer>
-    <!--  ===============
-    HERE BE MODALS
-    ===============  -->
-    <!-- 3dFlipVertical card tiny -->
-    <div id="modal-card" class="modal modal-fx-3dSlit">
-      <div class="modal-background"></div>
-      <div class="modal-content is-tiny">
-        <!-- content -->
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://images.unsplash.com/photo-1515555230216-82228b88ea98?auto=format&amp;fit=crop&amp;w=900&amp;q=60" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-left">
-                <figure class="image is-48x48">
-                  <img src="https://res.cloudinary.com/ameo/image/upload/v1639144778/typocat_svbspx.png" alt="avatar">
-                </figure>
-              </div>
-              <div class="media-content">
-                <p class="title is-4">Jane Doe</p>
-                <p class="subtitle is-6">@jane_doe</p>
-              </div>
-            </div>
-            <div class="content">
-              Laum Ipsum apricot peaches venison bookin' it. Moosetown rig up I'm tellin' you way up north bookin' it can't get theyah from heeyah native bean suppah whawf Powrtland Museum of Aht, back woods hawsun around the pit mummah Yessah, mummah muckle riyht on'ta her
-              Bean's dinnahbucket bub geez bud sumpin' fierce ayuhpawt Bangah naw, Powrtland Museum of Aht down cellah sumpin' fierce hoppa bub If you can't stand the wintah you don't deserve the summah slower than molasses going uphill in January.
-              Sgn'wahl shoggor hrii uaaah R'lyeh uh'e k'yarnak Hastur hupadgh li'hee, hai f'nilgh'ri nilgh'ri n'ghftor ngftaghu vulgtlagln h'hrii throd Nyarlathotep lloig, naflsll'ha nnnsll'ha athg y-ebunma goka chtenff ehyeog cehye. Zhro y'hah
-              nogoth phlegeth stell'bsna orr'e ph'Hastur gnaiih throd, uln ya lw'nafh mg nar'luh li'hee wgah'n, sgn'wahl mg nakadishtu chlirgh hupadgh tharanak h'gnaiih.
-              <a>@bulmaio</a>.
-              <a href="#">#css</a>
-              <a href="#">#responsive</a>
-              <br>
-              <time datetime="2018-02-02">12:45 AM - 20 June 2018</time>
-            </div>
-          </div>
-        </div>
-        <!-- end content -->
-      </div>
-      <button class="modal-close is-large" aria-label="close"></button>
-    </div>
-    <!-- end tiny modal card -->
-    <!-- 3dFlipVertical card tiny [butterfly] -->
-    <div id="modal-card2" class="modal modal-fx-3dSlit">
-      <div class="modal-background"></div>
-      <div class="modal-content is-tiny">
-        <!-- content -->
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://images.unsplash.com/photo-1529774172307-627a0ae46dae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="butterfly">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-left">
-                <figure class="image is-48x48">
-                  <img src="https://randomuser.me/api/portraits/women/18.jpg" alt="woman">
-                </figure>
-              </div>
-              <div class="media-content">
-                <p class="title is-4">Jane Doe</p>
-                <p class="subtitle is-6">@jane_doe</p>
-              </div>
-            </div>
-            <div class="content">
-              Laum Ipsum junkah potatoes bookin' it. Moosetown rig up I'm tellin' you way up north bookin' it can't get theyah from heeyah native bean suppah whawf Powrtland Museum of Aht, back woods hawsun around the pit mummah Yessah, mummah muckle riyht on'ta her
-              Bean's dinnahbucket bub geez bud sumpin' fierce ayuhpawt Bangah naw, Powrtland Museum of Aht down cellah sumpin' fierce hoppa bub If you can't stand the wintah you don't deserve the summah slower than molasses going uphill in January.
-              Sgn'wahl shoggor hrii uaaah R'lyeh uh'e k'yarnak Hastur hupadgh li'hee, hai f'nilgh'ri nilgh'ri n'ghftor ngftaghu vulgtlagln h'hrii throd Nyarlathotep lloig, naflsll'ha nnnsll'ha athg y-ebunma goka chtenff ehyeog cehye. Zhro y'hah
-              nogoth phlegeth stell'bsna orr'e ph'Hastur gnaiih throd, uln ya lw'nafh mg nar'luh li'hee wgah'n, sgn'wahl mg nakadishtu chlirgh hupadgh tharanak h'gnaiih.
-              <a>@bulmaio</a>.
-              <a href="#">#css</a>
-              <a href="#">#responsive</a>
-              <br>
-              <time datetime="2018-02-02">12:45 AM - 20 May 2018</time>
-            </div>
-          </div>
-        </div>
-        <!-- end content -->
-      </div>
-      <button class="modal-close is-large" aria-label="close"></button>
-    </div>
-    <!-- end tiny modal card -->
-    <!-- Image modal -->
-    <div id="modal-image2" class="modal modal-fx-3dSlit">
-      <div class="modal-background"></div>
-      <div class="modal-content is-huge is-image">
-        <!-- content -->
-        <img src="https://images.unsplash.com/photo-1515555230216-82228b88ea98?auto=format&amp;fit=crop&amp;w=900&amp;q=60" alt="image">
-        <!-- end content -->
-      </div>
-      <button class="modal-close is-large" aria-label="close"></button>
-    </div>
-    <!-- Image modal -->
-    <div id="modal-image4" class="modal modal-fx-3dSlit">
-      <div class="modal-background"></div>
-      <div class="modal-content is-huge is-image">
-        <!-- content -->
-        <img src="https://images.unsplash.com/photo-1529774172307-627a0ae46dae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="butterfly">
-        <!-- end content -->
-      </div>
-      <button class="modal-close is-large" aria-label="close"></button>
-    </div>
-    <!-- Image modal-->
-    <div id="modal-image" class="modal modal-fx-superScaled">
-      <div class="modal-background"></div>
-      <div class="modal-content  is-image">
-        <!-- content -->
-        <img src="https://res.cloudinary.com/ameo/image/upload/v1568711475/pexels-photo-1302883_fjje0f.jpg" alt="Placeholder image">
-        <!--     <img src="https://source.unsplash.com/zFrUz_tNjCY" alt="placeholder">
-        -->    <!-- end content -->
-      </div>
-      <button class="modal-close is-large" aria-label="close"></button>
-    </div>
-    <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
-<script
-  src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
-  integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
-  crossorigin="anonymous"></script>    <script src="../js/wild.js"></script>
+    <script src="../js/b.js"></script>
+
+    <script>
+      function ver1() {
+          alert("Redirecionando para aula 1");
+      }
+    
+      function ver2() {
+        alert("Redirecionando para aula 2");
+      }
+    
+      function ver3() {
+        alert("Redirecionando para aula 3");
+      }
+    </script>
   </body>
 </html>

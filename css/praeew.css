@@ -1,0 +1,74 @@
+nav.navbar {
+  height: 6rem !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06) !important;
+}
+:root{
+::-webkit-scrollbar{height:10px;width:10px}::-webkit-scrollbar-track{background:#484848;border-radius:6px}::-webkit-scrollbar-thumb{background:#d2cdcd;border-radius:6px}::-webkit-scrollbar-thumb:hover{background:#3e0000}
+}
+.va {
+  display: flex;
+  align-items: center;
+}
+.cta {
+  height: 500px;
+  border-top: 10px solid rgba(12, 66, 61, 0.527);
+}
+
+footer {
+  color: rgb(48, 48, 48);
+  background: rgb(14, 14, 14) !important;
+}
+
+footer strong {
+  color: rgb(23, 107, 97);
+}
+
+footer a {
+  color: rgb(62, 121, 115);
+}
+
+.title {
+  color: rgb(99, 96, 96);
+  font-weight: 800;
+  font-size: 4rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+}
+
+.subtitle {
+  color: rgb(71, 43, 43);
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+}
+
+hr.content-divider {
+  max-width: 75px;
+  height: 5px;
+}
+
+#parallax-1 {
+  background: url(../biologia/images/666.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax-1 hr {
+  background: rgb(82, 41, 26);
+}
+
+
+.label {
+  color: rgb(110, 2, 2);
+}
+
+input {
+  background: transparent !important;
+  border: 1px solid turquoise !important;
+  color: rgb(133, 129, 129) !important;
+}
+
+input::placeholder {
+  color: rgb(122, 121, 121) !important;
+}
