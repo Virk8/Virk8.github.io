@@ -58,6 +58,17 @@ hr.content-divider {
   background: rgb(82, 41, 26);
 }
 
+#parallax-2 {
+  background: url(../images/bra.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax-2 hr {
+  background: rgb(82, 41, 26);
+}
 
 .label {
   color: rgb(110, 2, 2);
