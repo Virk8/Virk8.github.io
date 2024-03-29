@@ -14,14 +14,11 @@
   <script async type="text/javascript" src="../js/b.js"></script>
 </head>
 <style>
-  nav.navbar {
-    height: 6rem !important;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06) !important;
-  }
   :root{
-::-webkit-scrollbar{height:10px;width:10px}::-webkit-scrollbar-track{background:#484848;border-radius:6px}::-webkit-scrollbar-thumb{background:#d2cdcd;border-radius:6px}::-webkit-scrollbar-thumb:hover{background:#3e0000}
+  background-color: rgba(179, 214, 170, 0.274);
+::-webkit-scrollbar{height:10px;width:10px}::-webkit-scrollbar-track{background:#053319;border-radius:6px}::-webkit-scrollbar-thumb{background:#3d5537;border-radius:6px}::-webkit-scrollbar-thumb:hover{background:#3e0000}
 }
-  ::selection{color: lavender; background-color:black;}
+  ::selection{color: rgb(72, 72, 139); background-color:black;}
 </style>
 <body>
 
@@ -48,7 +45,7 @@
           </span>
           <span>PDF</span>
         </a>
-        <a class="navbar-item" href="#portfolio">
+        <a class="navbar-item" href="aulas.html" onclick="ver3()">
           <span class="icon">
             <i class="fas fa-th-list"></i>
           </span>
@@ -102,7 +99,7 @@
                   <th colspan="2"></th>
                 </tr>
                 <tr>
-                  <td>Victor Sales Daniel</td>
+                  <td  onclick="funcao1()">Victor Sales Daniel</td>
                 </tr>
                 <tr>
                   <td>Samuel Riviera De Lima</td>
@@ -158,7 +155,7 @@
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="images/Mario.jpg" alt="Placeholder image">
+            <img src="images/Mario.jpg" onClick="alert('Doutorado Sanduíche em Ecologia e Recursos Naturais pela Universidade Federal de São Carlos - UFSCar, São Carlos/SP e Universidade dos Açores - UAC, Portugal (2017); Mestrado em Ciência e Tecnologia Ambiental pela Universidade do Vale de Itajaí - UNIVALI, Itajaí, Santa Catarina (2012); Especialização em Biologia Geral pela Fundação Severino Sombra, Vassouras, Rio de Janeiro (1989); Graduação em Ciências Biológicas pela Fundação Universidade Regional de Blumenau - FURB, Blumenau, Santa Catarina (1987) e Graduação em Ciências pela Fundação Educacional de Brusque - FEBE, Brusque, Santa Catarina (1984). Professor do Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina (IFSC), desde 2011.');"/>
           </figure>
         </div>
       </div>
@@ -182,6 +179,7 @@
     </div>
   </section>
 
+<!--
   <section class="section" id="portfolio">
     <div class="container">
       <div class="section-heading">
@@ -216,7 +214,7 @@
           </div>
           <div class="container portfolio-container">
         <div class="columns">
-          <div class="column is-4">
+          <div class="column is-4">-->
 
             <!--<div class="card">
               <header class="card-header">
@@ -279,7 +277,7 @@
       </a>
   </section>
   <!-- Footer -->
-  <footer class="footer">
+  <footer>
     <div class="section-heading">
       <p>
         <strong><a href="template aulas.html"><strong>Diario de bordo</strong></a> Por <a href="https://github.com/Virk8">virk</a> Licença
@@ -293,12 +291,21 @@
       alert("Redirecionando para aula 1");
   }
 
-  function ver2() {
-    alert("Redirecionando para aula 2");
+  function funcao1()
+{
+var r=prompt("Digite algo");
+if (r="Pinto")
+  {
+  alert("Ola mundo");
   }
+else
+  {
+  alert("Hello World");
+  }
+}
 
   function ver3() {
-    alert("Redirecionando para aula 3");
+    alert("Redirecionando para Ver as Aulas");
   }
 </script>
 </html>
