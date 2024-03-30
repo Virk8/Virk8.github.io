@@ -133,7 +133,7 @@
                 <th colspan="2"></th>
               </tr>
               <tr>
-                <td>Mário Cesar Sedrez</td>
+                <td  onclick="funcao3()">Mário Cesar Sedrez</td>
                 <td>Professor de Biologia</td>
               </tr>
               <tr>
@@ -295,11 +295,24 @@ if (r=="1 mol de Pinto")
   {
   window.location = "../a/confie.html"
   }
+else
+  {
+  alert("Hello World");
+  }
 }
-if (r=="pi")
+
+function funcao3()
+{
+var u=prompt("Digite algo");
+if (u=="pi")
   {
   window.location = "../a/quimica.html"
   }
+else
+  {
+  alert("Hello World");
+  }
+}
   function ver3() {
     alert("Redirecionando para Ver as Aulas");
   }
