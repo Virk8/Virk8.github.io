@@ -1,0 +1,1 @@
+auto.cmd > mylog.txt & type mylog.txt
