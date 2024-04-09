@@ -1,1 +1,2 @@
-auto.cmd > mylog.txt & type mylog.txt
+start cmd /K "D:\xampp\htdocs\Virk8.github.io\a\auto.bat" 1>>log.txt
+  pause
