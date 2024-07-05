@@ -1,0 +1,65 @@
+/* Fontes e cores */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c00;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+}
+
+header .logo {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+}
+
+header .section-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    margin: 9px auto;
+    width: 90%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.main-title {
+    color: #000;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.author-info {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.author-info span {
+    display: block;
+    margin-top: 5px;
+}
