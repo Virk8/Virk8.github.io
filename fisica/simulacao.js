@@ -2,6 +2,7 @@ const canvas = document.getElementById('canvasSimulacao');
 const ctx = canvas.getContext('2d');
 
 let bloco1, bloco2;
+let contadorColisoes = 0;
 
 function inicializarBlocos() {
     const massa1 = parseFloat(document.getElementById('massa1').value);
@@ -28,6 +29,10 @@ function inicializarBlocos() {
         vx: velocidade2,
         massa: massa2
     };
+
+    // Resetar contador de colisões
+    contadorColisoes = 0;
+    atualizarContadorColisoes();
 }
 
 function desenharBloco(bloco) {
@@ -66,7 +71,15 @@ function verificarColisao(bloco1, bloco2) {
         const sobreposicao = (bloco1.x + bloco1.largura) - bloco2.x;
         bloco1.x -= sobreposicao / 2;
         bloco2.x += sobreposicao / 2;
+
+        // Incrementar contador de colisões
+        contadorColisoes++;
+        atualizarContadorColisoes();
     }
+}
+
+function atualizarContadorColisoes() {
+    document.getElementById('contadorColisoes').innerText = contadorColisoes;
 }
 
 function limparCanvas() {
