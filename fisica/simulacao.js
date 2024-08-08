@@ -3,6 +3,7 @@ const ctx = canvas.getContext('2d');
 
 let bloco1, bloco2;
 let contadorColisoes = 0;
+let velocidadeTempo = 1;
 
 function inicializarBlocos() {
     const massa1 = parseFloat(document.getElementById('massa1').value);
@@ -44,7 +45,7 @@ function desenharBloco(bloco) {
 }
 
 function atualizarPosicaoBloco(bloco) {
-    bloco.x += bloco.vx;
+    bloco.x += bloco.vx * velocidadeTempo;
 }
 
 function verificarColisaoParede(bloco) {
